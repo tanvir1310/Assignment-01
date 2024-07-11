@@ -1,5 +1,4 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
+
 
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
@@ -46,6 +45,7 @@
   padding-top: 26px;
   padding-bottom: 45px;
   display: flex;
+  
 }
 
 .hero-container {
@@ -109,9 +109,7 @@
   color: white;
 }
 
-.body {
-  font-family: Azeret Mono, sans-serif;
-}
+
 
 .container-02 {
   background-color: rgba(13, 19, 33, .02);
