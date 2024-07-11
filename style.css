@@ -7,6 +7,36 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+
+.nav-container {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  display: flex;
+}
+
+.nav-section {
+  justify-content: center;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  display: flex;
+}
+
+.nav-button {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #0d1321;
+  border-radius: 8px;
+  padding: 17px 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
 .hero-section {
   background-image: url('Asset/Hero-bg.png');
   background-position: 0 0;
@@ -41,6 +71,7 @@
   font-size: 48px;
   font-weight: 800;
   line-height: 68px;
+  
 }
 
 .paragraph {
@@ -218,6 +249,7 @@
   border-radius: 16px;
   max-width: 364px;
   padding: 40px;
+
 }
 
 .cards.color01 {
@@ -249,9 +281,10 @@
 }
 
 .div-block-6 {
-  justify-content: space-between;
+  justify-content: start;
   display: flex;
   gap: 32px;
+  
 }
 
 
